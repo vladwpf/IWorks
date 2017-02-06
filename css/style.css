@@ -1260,6 +1260,7 @@ header .follow_icons li a:hover {
 	transition: all 0.25s ease;
 }
 .logoBox {
+	height: 117px;
 	background-color: #f7f7f5;
 	background-image: -moz-linear-gradient(top, #ffffff, #eceae6);
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#eceae6));
@@ -1655,7 +1656,8 @@ footer {
 	padding: 0;
 	margin-bottom: 30px;
 }
-footer .container .span12 {
+
+footer .container .col-md-12 {
 	background: #e3e2e2;
 	padding-top: 11px;
 	-webkit-border-radius: 0 0 7px 7px;
