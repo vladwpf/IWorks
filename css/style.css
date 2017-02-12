@@ -1652,12 +1652,12 @@ header .follow_icons li a:hover {
 	font-size: 12px;
 }
 /*-----footer-----*/
-footer {
+.footer {
 	padding: 0;
 	margin-bottom: 30px;
 }
 
-footer .container .col-md-12 {
+.footer .container .col-md-12 {
 	background: #e3e2e2;
 	padding-top: 11px;
 	-webkit-border-radius: 0 0 7px 7px;
@@ -1665,13 +1665,15 @@ footer .container .col-md-12 {
 	border-radius: 0 0 7px 7px;
 	border-bottom: 1px solid #cccbcb;
 }
-footer p {
+
+.footer p {
 	font-size: 14px;
 	font-weight: normal;
 	color: #383535;
 	margin-left: 15px;
 }
-footer a {
+
+.footer a {
 	color: #7b7979;
 	font-weight: normal;
 	-webkit-transition: all 0.35s ease;
@@ -1679,7 +1681,8 @@ footer a {
 	-o-transition: all 0.35s ease;
 	transition: all 0.35s ease;
 }
-footer a:hover {
+
+.footer a:hover {
 	color: #383535;
 	-webkit-transition: all 0.35s ease;
 	-moz-transition: all 0.35s ease;
@@ -1712,7 +1715,8 @@ footer a:hover {
  .caroufredsel_wrapper {
  height: 72px !important;
 }
- footer .privacy-box > img {
+
+    .footer .privacy-box > img {
  float: left;
  margin-top: -4px;
  margin-right: 5px;
@@ -1749,7 +1753,8 @@ footer a:hover {
  #subscribe-form .success {
  width: 218px;
 }
- footer .privacy-box > img {
+
+    .footer .privacy-box > img {
  float: none;
  margin-top: 0;
  margin-right: 0;
@@ -2323,11 +2328,13 @@ footer a:hover {
  float: none;
  margin-right: 0;
 }
- footer p {
+
+    .footer p {
  float: none;
  margin-bottom: 10px;
 }
- footer ul {
+
+    .footer ul {
  float: none;
  display: block;
 }
